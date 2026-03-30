@@ -103,7 +103,7 @@ SETFLIX/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/setflix.git
+git clone https://github.com/codesWith-Adi/SetFlix-website
 cd setflix
 ```
 
@@ -128,7 +128,7 @@ Simply open `index.html` in your browser — no build tools or server required.
 # Or use Live Server in VS Code for best experience
 ```
 
-> ✅ No npm, no frameworks, no installation needed — just open and run!
+> ✅ No npm, no frameworks, no installation needed — just open index.html
 
 ---
 
