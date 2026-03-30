@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            height: 100vh;
+            width: 100vw;
+            position: absolute;
+            z-index: -1;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #box {
+            background-color: rgba(50, 50, 200, 0.1);
+            padding: 35px;
+            border-radius: 25px;
+            box-shadow: 5px 6px 29px rgba(40, 115, 200, 0.5);
+            height: 350px;
+            width: 300px;
+            text-align: center;
+            backdrop-filter: blur(9px);
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+            border-radius: 30px;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            background-color: rgba(100, 250, 250, 0.3);
+            width: 100%;
+            padding: 10px;
+            border: 1px solid rgba(100, 150, 250, 0.3);
+            border-radius: 19px;
+            font-size: 14px;
+        }
+
+        .input-group input:focus {
+            border-color: #007BFF;
+            outline: none;
+        }
+
+        .login-btn {
+            background-color: #007BFF;
+            color: white;
+            width: 60%;
+            margin: 10px;
+            margin-left: 40%;
+            padding: 10px;
+            border: none;
+            border-radius: 19px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer links */
+
+        .footer-links {
+            margin-top: 15px;
+        }
+
+        .footer-links a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 14px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <img
+        src="https://applescoop.org/image/wallpapers/mac/foggy-mountains-minimalist-for-macos-hd-4k-28-10-2024-1730102602-hd-wallpaper.png"></img>
+    <div id="box">
+        <h2>Login</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button onclick="window.location.href='Home/home.html'" type="button" class="login-btn">Log In</button>
+        </form>
+        <div class="footer-links">
+            <a href="#">Forgot Password?</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

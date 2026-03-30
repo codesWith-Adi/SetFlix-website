@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SETFLIX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">SETFLIX</div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Trending</a></li>
+        </ul>
+
+        <div class="search-container">
+            <input type="text" class="search" placeholder="Search: Movies" id="search-input">
+            <button class="search-btn" id="search-btn"><i class="fas fa-search"></i></button>
+            <div id="search-suggestions" class="suggestions"></div>
+        </div>
+
+    </nav>
+
+
+    <section class="hero">
+
+        <h1>SETFLIX</h1>
+        <p>Unlimited Movies, Shows & Entertainment</p>
+
+        <a href="#contentss">Start Watching</a>
+
+    </section>
+
+
+    <div class="container" id="contentss">
+
+        <div id="search-results" class="search-results"></div>
+
+        <h2 class="section-title">Trending Movies</h2>
+        <div class="movies" id="trending-movies"></div>
+
+        <h2 class="section-title">Marvel Movies</h2>
+        <div class="movies" id="marvel-movies"></div>
+
+        <h2 class="section-title">Bollywood Movies</h2>
+        <div class="movies" id="bollywood-movies"></div>
+
+        <h2 class="section-title">Hollywood Movies</h2>
+        <div class="movies" id="hollywood-movies"></div>
+
+        <h2 class="section-title">Anime Movies</h2>
+        <div class="movies" id="anime-movies"></div>
+
+        <h2 class="section-title">Top Actors</h2>
+        <div class="actors" id="bollywood-actors"></div>
+
+
+        <div class="features">
+
+            <div class="feature">
+                <div class="icon">🎬</div>
+                <h3>HD Streaming</h3>
+                <p>Watch in Ultra HD quality</p>
+            </div>
+
+            <div class="feature">
+                <div class="icon">📱</div>
+                <h3>All Devices</h3>
+                <p>Mobile, Tablet, Smart TV</p>
+            </div>
+
+            <div class="feature">
+                <div class="icon">⚡</div>
+                <h3>Fast Streaming</h3>
+                <p>No buffering experience</p>
+            </div>
+
+            <div class="feature">
+                <div class="icon">🎦</div>
+                <h3>Live Events</h3>
+                <p>Sports and concerts live</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <p>© 2026 SETFLIX | Stream Entertainment Anywhere</p>
+
+    </footer>
+
+    <!-- Trailer Popup Modal -->
+    <div id="trailer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="trailer-container">
+                <!-- Trailer iframe will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
