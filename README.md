@@ -106,31 +106,8 @@ SETFLIX/
 git clone https://github.com/codesWith-Adi/SetFlix-website
 cd setflix
 ```
+- or [click here](https://codeswith-adi.github.io/SetFlix-website/)
 
-### 2. Get a TMDB API Key
-
-- Sign up at [https://www.themoviedb.org/](https://www.themoviedb.org/)
-- Go to **Settings → API** and generate a free API key
-
-### 3. Add your API Key
-
-Open `Home/script.js` and replace the existing key:
-
-```js
-const apiKey = "YOUR_TMDB_API_KEY_HERE";
-```
-
-### 4. Open in Browser
-
-Simply open `index.html` in your browser — no build tools or server required.
-
-```bash
-# Or use Live Server in VS Code for best experience
-```
-
-> ✅ No npm, no frameworks, no installation needed — just open index.html
-
----
 
 ## 📸 Screenshots
 
@@ -173,13 +150,6 @@ Contributions are welcome! Feel free to:
 4. Push to the branch (`git push origin feature/your-feature`)
 5. Open a Pull Request
 
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
 
 ## 🙏 Acknowledgements
 
